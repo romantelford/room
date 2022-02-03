@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+:root {
+  font-size: 12px;
+  font-family: "Spartan", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+p {
+  font-weight: 600;
+  color: #a1a1a1;
+  line-height: 1.8rem;
+}
+
+.hero__link--button {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 8px;
+}
+
+.hero__link--svg {
+  fill: black;
+}
+
+li {
+  color: white;
+  list-style-type: none;
+  text-transform: lowercase;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #a1a1a1;
+}
+
+.main__grid--container {
+  background-color: white;
+  margin: auto;
+  width: 1440px;
+  height: 100%;
+}
+
+.aside {
+  display: flex;
+}
+.aside img {
+  flex: 1 1 1;
+}
+.aside__textblock {
+  flex: 1 1 2;
+}
+
+.hero {
+  display: flex;
+}
+.hero--img {
+  flex: 3;
+}
+.hero--textblock {
+  flex: 2;
+}
+
+.nav {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  width: 22vw;
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+.nav--img {
+  max-width: 80px;
+  align-self: center;
+  flex: 1;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 2rem;
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav li {
+  flex: 1 1 1;
+}
+.nav a {
+  padding-bottom: 1rem;
+}
+
+.hero--img {
+  width: auto;
+  height: 533.64px;
+}
+.hero--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero--textblock .hero__textblock--inner {
+  padding: 6rem;
+  padding-left: 8rem;
+}
+.hero--textblock p {
+  margin-bottom: 3rem;
+}
+.hero--textblock svg {
+  padding-left: 2rem;
+}
+
+.aside__textblock {
+  padding: 80px;
+}
+
+.hero__box {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 80px;
+  padding-top: 19px;
+}
+.hero__box > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+.hero__box > div svg {
+  margin-left: 7px;
+}
+
+@media only screen and (max-width: 375px) {
+  .main__grid--container {
+    width: 375px;
+  }
+
+  .hero {
+    display: block;
+  }
+  .hero__textblock--inner {
+    padding: 80px 60px !important;
+  }
+
+  .aside {
+    display: block;
+  }
+  .aside__img--dark {
+    width: 440px;
+  }
+  .aside__textblock {
+    padding: 80px 60px;
+  }
+
+  .nav {
+    padding-left: 0;
+    padding-top: 3rem;
+    width: 375px;
+    background-color: black;
+  }
+}
+.hero__link--button:hover {
+  color: #a1a1a1;
+}
+.hero__link--button:hover .hero__link--svg {
+  fill: #a1a1a1;
+}
+
+.nav li a {
+  transition: border-bottom 2s linear;
+}
+
+.nav li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.hero__box--left:hover {
+  background-color: #454545;
+}
+
+.hero__box--right:hover {
+  background-color: #454545;
+}
+
+/*# sourceMappingURL=style.css.map */

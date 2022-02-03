@@ -1,0 +1,9 @@
+.aside {
+    display: flex;
+    img {
+        flex: 1 1 1;
+    }
+    &__textblock {
+        flex: 1 1 2;
+    }
+}

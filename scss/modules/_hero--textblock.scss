@@ -1,0 +1,22 @@
+.hero--img {
+    width: auto;
+    height: 533.64px;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.hero--textblock {
+    .hero__textblock--inner {
+        padding: 6rem;
+        padding-left: 8rem;
+    }
+    & p {
+        margin-bottom: 3rem;
+    }
+    & svg {
+        padding-left: 2rem;
+    }
+}

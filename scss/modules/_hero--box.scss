@@ -1,0 +1,22 @@
+$box_size: 80px;
+.hero__box {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: $box_size*2;
+    height: $box_size;
+    padding-top: 19px;
+    &>div {
+        // Selecting the Left and Right Box
+        flex: 1;
+        display: flex;
+        align-items: center;
+        width: $box_size;
+        height: $box_size;
+        background-color: black;
+        svg {
+            margin-left: 7px;
+        }
+    }
+}

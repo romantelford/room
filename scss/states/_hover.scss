@@ -1,0 +1,23 @@
+@use "../base/base.scss";
+.hero__link--button:hover {
+    color: base.$dark-grey-100;
+    .hero__link--svg {
+        fill: base.$dark-grey-100;
+    }
+}
+
+.nav li a {
+    transition: border-bottom 2s linear;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero__box--left:hover {
+    background-color: base.$dark-grey-200;
+}
+
+.hero__box--right:hover {
+    background-color: base.$dark-grey-200;
+}

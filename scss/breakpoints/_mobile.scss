@@ -1,0 +1,26 @@
+@media only screen and (max-width: 375px) {
+    .main__grid--container {
+        width: 375px;
+    }
+    .hero {
+        display: block;
+        &__textblock--inner {
+            padding: 80px 60px !important;
+        }
+    }
+    .aside {
+        display: block;
+        &__img--dark {
+            width: 440px;
+        }
+        &__textblock {
+            padding: 80px 60px;
+        }
+    }
+    .nav {
+        padding-left: 0;
+        padding-top: 3rem;
+        width: 375px;
+        background-color: black;
+    }
+}

@@ -1,0 +1,28 @@
+.nav {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    width: 22vw;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    &--img {
+        max-width: 80px;
+        align-self: center;
+        flex: 1;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        padding-left: 2rem;
+        flex: 3;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    li {
+        flex: 1 1 1;
+    }
+    a {
+        padding-bottom: 1rem;
+    }
+}

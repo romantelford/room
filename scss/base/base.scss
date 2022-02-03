@@ -1,0 +1,51 @@
+//  ------------------------------------------------ COLOURS
+$dark-grey-100: hsl(0, 0%, 63%);
+$dark-grey-200: hsl(0, 0%, 27%);
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+//  ------------------------------------------------ TYPOGRAPHY
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+:root {
+    font-size: 12px;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-weight: 600;
+    color: $dark-grey-100;
+    line-height: 1.8rem;
+}
+
+.hero__link--button {
+    text-transform: uppercase;
+    color: $black;
+    letter-spacing: 8px;
+}
+
+.hero__link--svg {
+    fill: $black;
+}
+
+li {
+    color: $white;
+    list-style-type: none;
+    text-transform: lowercase;
+}
+
+//  ------------------------------------------------ SIZING
+body {
+    box-sizing: border-box;
+    background-color: $dark-grey-100;
+}

@@ -1,0 +1,9 @@
+.hero {
+    display: flex;
+    &--img {
+        flex: 3;
+    }
+    &--textblock {
+        flex: 2;
+    }
+}
